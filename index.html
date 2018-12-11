@@ -19,8 +19,8 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>Jatan Bhatt <br /> </strong>Mechatronics Engineering Student<br />
-					</h1>
+					<h1><strong>Jatan Bhatt</strong><br /></h1>
+					<h1>Mechatronics Engineering Student</h1>
 				</div>
 			</header>
 
@@ -30,37 +30,85 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Welcome to my Portfolio</h2>
+							<h2>Welcome to my Portfolio!</h2>
 						</header>
-						<p>I'm a passionate Third Year Mechatronics Engineering Student currently attending McMaster University. I love working with Robots and have 5 years of 3D designing experience.</p>
+						<p>I'm a passionate 3rd year Mechatronics Engineering student at McMaster University. I especially enjoy working with embedded systems. Below you'll find a selection of some of my projects. Please feel free to send me a message!</p>
 						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
+							<li><a href="docs/Resume.pdf" class="button">Resume</a></li>
+							<li><a href="#three" class="button">Get in Touch</a></li>
 						</ul>
 					</section>
 
-				<!-- Two -->
+
+				<!--Project 1-->
+					<section id="project2">
+						<h2>Smart Powerbar</h2>
+						<p> LEDs synchronized with music to help visualize sound and create cool visual lighting. LEDs primarily react to the rhythm and beats of a song. </p>
+						<div class="row">
+							<article class="6u 12u$(xsmall) work-item">
+								<h3>Hardware</h3>
+								<ul>
+									<li>Particle Core (Originally Spark Core)</li>
+									<li>3 TIP122 NPN Darlington Transistors</li>
+									<li>12 Volt Power Adapter</li>
+									<li>12 Volt RGB LED Strip</li>
+									<li><a href="https://cdn-learn.adafruit.com/assets/assets/000/002/693/original/led_strips_ledstripbjt.gif?1448059603">Schematic </a></li>
+								</ul>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<h3>Software/h3>
+								<p style="font-size:100%;">This project uses the <a href="https://processing.org"> Processing </a> software to analyse sound. It then communicates with the Particle Core via USB to switch LED colors using the Core's PWM pins. Beats are detected in the music and the brightness of the LEDs' color is set accordingly. Communication between the computer software and the core is handled by a lightweight custom serial communication protocol. This protocol minimizes any unwanted flicker in the LEDs due to delay of sound processing. <a href="https://github.com/tilakG7/music-leds">View the code. </a></p>
+							</article>
+							</div>
+
+						<div class="row">
+						<article class="6u 12u$(xsmall) work-item">
+							<a href="https://youtu.be/JqFhMSmfuxY" class="image fit thumb"><img src="images/thumbs/03.jpg" /></a>
+							<!--<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a> -->
+							<h3>LED Visualizer to James Bond Theme (video)</h3>
+						<!--	<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+						</article>
+						<article class="6u$ 12u$(xsmall) work-item">
+							<a href="https://youtu.be/llXvh4BSNa4" class="image fit thumb"><img src="images/thumbs/04.jpg" /></a>
+						<!--	<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a> -->
+							<h3>LED Visualizer to Knight Rider (video)</h3>
+						<!--	<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+						</div>
+				</section>
+
+
+
+				<!-- Two - Project 2-->
 					<section id="two">
-						<h2>Recent Work</h2>
+						<h2>Electric Bike Project</h2>
+						<p>This is an ongoing project. I have designed an electric carbon bike frame and plan to build it soon to save myself from those long walks to school! The electric bike will be powered by a 1000W motor and a 48V 18Ah battery with a projected top speed above 50km/h. I have already gathered the carbon fiber and epoxy and have made a test piece. After finishing construction, I plan to make my own motor controller and add cool features like cruise control! </p>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Main Frame</h3>
+
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Rear swing arm</h3>
+
 							</article>
+						</div>
+<!--
+							<h2>LED Mood Lighting</h2>
+							<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+								<a href="https://youtu.be/JqFhMSmfuxY" class="image fit thumb"><img src="images/thumbs/03.jpg" /></a>
 								<h3>Tortor metus commodo</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+								<a href="https://youtu.be/llXvh4BSNa4" class="image fit thumb"><img src="images/thumbs/04.jpg" /></a>
 								<h3>Quam neque phasellus</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</div>
+							<h2>Quadcopter</h2>
+							<div class="row">
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
@@ -72,34 +120,73 @@
 								<h3>Risus ornare lacinia</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
-						</div>
-						<ul class="actions">
+						</div>  -->
+
+			<!--			<ul class="actions">
 							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
+						</ul> -->
 					</section>
+
+			<!-- project 3 -->
+				<section id="project3">
+					<h2>Quadcopter</h2>
+					<p>To build this quadcopter, I had to source parts from different sellers while also checking for compatibility. It involved
+					soldering ESCs, motors and other electronics to the power distribution board. Battery output, threshold ESC current and motor
+					properties all had to be taken into account to develop the functional electrical system. Also involved was configuring the radio transmitter
+					and receiver to allow for remote control.</p>
+					<div class="row">
+					</article>
+					<article class="6u 12u$(xsmall) work-item">
+						<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+						<h3>A still of the quadcopter</h3>
+					</article>
+					<article class="6u$ 12u$(xsmall) work-item">
+						<a href="https://youtu.be/q-2AeHLYVpY" class="image fit thumb"><img src="images/thumbs/06.jpg" /></a>
+						<h3>Short Flight Test</h3>
+					</article>
+			</section>
+
+			<!--Project 4-->
+			<section id="project4">
+				<h2>PCB Design: Learning Altium</h2>
+				<p> Coming soon! </p>
+				</section>
+
+
+
 
 				<!-- Three -->
 					<section id="three">
-						<h2>Contact Me</h2>
-						<p>Feel free to send me a message to get in touch!</p>
+						<h2>Contact</h2>
+						<p> Feel free to send a message ! </p>
 						<div class="row">
 							<div class="8u 12u$(small)">
-								<form method="post" action="#">
+
+
+								<form method="POST" action="https://formspree.io/gupta.tilak@hotmail.com">
+<!--            <form method="post" action="#">-->
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
 										<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
 									</div>
+									<br>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
 								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
 							</div>
 							<div class="4u$ 12u$(small)">
 								<ul class="labeled-icons">
+								<!--	<li>
+										<h3 class="icon fa-home"><span class="label">Address</span></h3>
+										1234 Somewhere Rd.<br />
+										Nashville, TN 00000<br />
+										United States
+									</li> -->
 									<li>
-										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-										647-770-7698
+										<h3 class="icon fa-phone"><span class="label">Phone</span></h3>
+										+1-647-770-7698
 									</li>
 									<li>
 										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
@@ -114,7 +201,6 @@
 				<!--
 					<section id="four">
 						<h2>Elements</h2>
-
 						<section>
 							<h4>Text</h4>
 							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
@@ -142,16 +228,13 @@
 							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
 							<h5>Preformatted</h5>
 							<pre><code>i = 0;
-
 while (!deck.isInOrder()) {
 print 'Iteration ' + i;
 deck.shuffle();
 i++;
 }
-
 print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</section>
-
 						<section>
 							<h4>Lists</h4>
 							<div class="row">
@@ -226,7 +309,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</div>
 							</div>
 						</section>
-
 						<section>
 							<h4>Table</h4>
 							<h5>Default</h5>
@@ -274,7 +356,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									</tfoot>
 								</table>
 							</div>
-
 							<h5>Alternate</h5>
 							<div class="table-wrapper">
 								<table class="alt">
@@ -321,7 +402,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</table>
 							</div>
 						</section>
-
 						<section>
 							<h4>Buttons</h4>
 							<ul class="actions">
@@ -350,7 +430,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<li><span class="button disabled">Default</span></li>
 							</ul>
 						</section>
-
 						<section>
 							<h4>Form</h4>
 							<form method="post" action="#">
@@ -404,7 +483,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</div>
 							</form>
 						</section>
-
 						<section>
 							<h4>Image</h4>
 							<h5>Fit</h5>
@@ -426,7 +504,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 						</section>
-
 					</section>
 				-->
 
@@ -436,14 +513,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="docs/resume2017.pdf" class="icon fa-file-text-o"><span class="label">Resume</span></a></li>
+					  <li><a href="https://github.com/tilakG7/" class="icon fa-github"><span class="label">Github</span></a></li>
+					<!--					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+					<!--  <li><a href="https://www.linkedin.com/" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li> -->
+					  <li><a href="mailto:t22gupta@edu.uwaterloo.ca" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
-					<!--<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul> -->
+					<!-- <ul class="copyright">
+						<li>&copy; Tilak Gupta</li> -->
+				<!--		<li>Orignal Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+					</ul>
 				</div>
 			</footer>
 
